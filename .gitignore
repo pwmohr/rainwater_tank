@@ -1,2 +1,6 @@
 
 *.pyc
+
+pump_control/arduino_secrets.h
+
+tank_measurement/arduino_secrets.h
