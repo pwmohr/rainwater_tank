@@ -109,9 +109,9 @@ float convertAdcToDepth( int adc )
   }
   else
   {
-    data["tankDepth"] = d;
     data["status"] = "OK";
   }
+  data["tankDepth"] = d;
 
   return d;
 }
